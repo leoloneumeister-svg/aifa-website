@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book a demo — AIFA</title>
+  <meta name="description" content="Book a live demo of AIFA." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-started.html">Get started</a>
+        <button class="button ghost menu-btn" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">Home / Book a demo</div>
+      <h1>See AIFA in action</h1>
+      <p class="muted" style="max-width:60ch">Tell us a bit about you and we’ll tailor the walkthrough.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <form id="demo-form" class="reveal">
+        <div class="input">
+          <label for="name">Full name</label>
+          <input id="name" name="full_name" placeholder="Alex Morgan" required />
+        </div>
+        <div class="input">
+          <label for="email">Work email</label>
+          <input id="email" type="email" name="email" placeholder="alex@company.com" required />
+        </div>
+        <div class="input">
+          <label for="company">Company (optional)</label>
+          <input id="company" name="company" placeholder="Company Inc." />
+        </div>
+        <div class="input">
+          <label for="time">Preferred time</label>
+          <select id="time" name="time">
+            <option>Morning</option><option>Afternoon</option><option>Evening</option>
+          </select>
+        </div>
+        <div class="input">
+          <label for="notes">Anything specific you want to see?</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Budgeting, retirement scenarios, tax tips..."></textarea>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <button class="button primary" type="submit">Request demo</button>
+          <a class="button ghost" href="index.html">Back</a>
+        </div>
+        <p class="help">We’ll email you to confirm a time.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

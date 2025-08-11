@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create your account — AIFA</title>
+  <meta name="description" content="Create your AIFA account to start your plan." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-started.html">Get started</a>
+        <button class="button ghost menu-btn" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">Home / Get started</div>
+      <h1>Create your AIFA account</h1>
+      <p class="muted" style="max-width:60ch">Start free in under 2 minutes. No credit card required.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <form id="signup-form" class="reveal">
+        <div class="input">
+          <label for="signup-name">Full name</label>
+          <input id="signup-name" name="name" placeholder="Jamie Lee" required />
+        </div>
+        <div class="input">
+          <label for="signup-email">Email</label>
+          <input id="signup-email" type="email" name="email" placeholder="jamie@example.com" required />
+        </div>
+        <div class="input">
+          <label for="signup-pass">Password</label>
+          <input id="signup-pass" type="password" name="password" placeholder="Choose a strong password" required minlength="8" />
+          <span class="help">At least 8 characters.</span>
+        </div>
+        <div class="input">
+          <label for="signup-goal">Primary goal</label>
+          <select id="signup-goal" name="goal">
+            <option>Build an emergency fund</option>
+            <option>Invest for wealth</option>
+            <option>Retirement planning</option>
+            <option>Pay down debt</option>
+          </select>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <button class="button primary" type="submit">Create account</button>
+          <a class="button ghost" href="index.html">Back</a>
+        </div>
+        <p class="help">By creating an account, you agree to our <a href="terms.html">Terms</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

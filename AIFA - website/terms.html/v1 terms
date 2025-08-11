@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms of Service — AIFA</title>
+  <meta name="description" content="AIFA terms of service." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-start

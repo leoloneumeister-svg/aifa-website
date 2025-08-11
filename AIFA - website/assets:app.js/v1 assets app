@@ -1,0 +1,80 @@
+// Shared JS for all pages
+
+// Mobile menu toggle
+const navWrap = document.querySelector('.nav-wrap');
+const menuBtn = document.querySelector('.menu-btn');
+if (menuBtn && navWrap) {
+  menuBtn.addEventListener('click', () => {
+    const open = navWrap.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.textContent = open ? 'Close' : 'Menu';
+  });
+}
+
+// Mark current nav link
+(function markCurrentNav(){
+  const here = location.pathname.split('/').pop() || 'index.html';
+  const links = document.querySelectorAll('.nav a.link');
+  links.forEach(a=>{
+    const href = a.getAttribute('href');
+    if (!href) return;
+    const file = href.split('/').pop();
+    if (file === here || (here==='index.html' && (file==='#' || href==='/'))) {
+      a.setAttribute('aria-current','page');
+    }
+  });
+})();
+
+// Reveal on scroll
+const io = new IntersectionObserver((entries)=>{
+  for(const ent of entries){
+    if(ent.isIntersecting){ ent.target.classList.add('in'); io.unobserve(ent.target); }
+  }
+}, {threshold: .12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// Smooth scroll for same-page anchors (rare on subpages)
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click', e=>{
+    const id = a.getAttribute('href');
+    if(id && id.length > 1){
+      const el = document.querySelector(id);
+      if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+    }
+  });
+});
+
+// Year
+const y = document.getElementById('year');
+if (y) y.textContent = new Date().getFullYear();
+
+// Simple form handling -> success page
+function handleForm(id, type){
+  const form = document.getElementById(id);
+  if(!form) return;
+  form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    const fd = new FormData(form);
+    const name = (fd.get('name') || fd.get('full_name') || '').toString().trim();
+    const qp = new URLSearchParams({ t: type, n: name });
+    window.location.href = `success.html?${qp.toString()}`;
+  });
+}
+handleForm('demo-form','demo');
+handleForm('signup-form','signup');
+
+// Success page personalization
+(function personalizeSuccess(){
+  if (!location.pathname.endsWith('success.html')) return;
+  const params = new URLSearchParams(location.search);
+  const t = params.get('t') || 'form';
+  const n = params.get('n') || '';
+  const title = document.getElementById('success-title');
+  const body = document.getElementById('success-body');
+  if (title && body) {
+    title.textContent = t==='demo' ? `Thanks${n?`, ${n}`:''}! Your demo is booked.` : `Welcome aboard${n?`, ${n}`:''}!`;
+    body.textContent = t==='demo'
+      ? 'We’ll email you shortly to confirm a time and share a calendar invite.'
+      : 'Your account is created. You can sign in once you verify your email.';
+  }
+})();

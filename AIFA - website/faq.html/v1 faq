@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — AIFA</title>
+  <meta name="description" content="Frequently asked questions about AIFA." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-started.html">Get started</a>
+        <button class="button ghost menu-btn" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">Home / FAQ</div>
+      <h1>Frequently asked questions</h1>
+      <p class="muted" style="max-width:60ch">Have more questions? We’re here to help.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container faq">
+      <div class="qa reveal">
+        <h3>Is AIFA a fiduciary or a tool?</h3>
+        <p class="muted">AIFA provides educational insights and tools. For personalized advice, consult a licensed professional as required in your jurisdiction.</p>
+      </div>
+      <div class="qa reveal">
+        <h3>Can I connect my accounts?</h3>
+        <p class="muted">Yes. You can securely link bank, brokerage, and retirement accounts or upload statements manually.</p>
+      </div>
+      <div class="qa reveal">
+        <h3>How do you handle my data?</h3>
+        <p class="muted">We provide clear privacy controls. You can export or delete your data anytime.</p>
+      </div>
+      <div class="qa reveal">
+        <h3>Can I cancel anytime?</h3>
+        <p class="muted">Absolutely. Plans are monthly with no long‑term contracts.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

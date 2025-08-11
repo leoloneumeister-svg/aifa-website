@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pricing — AIFA</title>
+  <meta name="description" content="Simple, transparent pricing. Start free and upgrade when you’re ready." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-started.html">Get started</a>
+        <button class="button ghost menu-btn" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">Home / Pricing</div>
+      <h1>Simple, transparent pricing.</h1>
+      <p class="muted" style="max-width:60ch">Start free. Upgrade when you’re ready.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="pricing">
+        <div class="plan reveal">
+          <h3>Starter</h3>
+          <div class="muted">For trying the essentials</div>
+          <div class="price">$0</div>
+          <ul>
+            <li>Budgeting & cash‑flow</li>
+            <li>Basic goals</li>
+            <li>Email support</li>
+          </ul>
+          <div class="spacer"></div>
+          <a class="button" href="get-started.html">Get started</a>
+        </div>
+
+        <div class="plan highlight reveal">
+          <h3>Plus</h3>
+          <div class="muted">Most popular</div>
+          <div class="price">$19/mo</div>
+          <ul>
+            <li>All Starter features</li>
+            <li>Personalized portfolios</li>
+            <li>Tax‑aware tips</li>
+            <li>Priority support</li>
+          </ul>
+          <div class="spacer"></div>
+          <a class="button primary" href="get-started.html">Choose Plus</a>
+        </div>
+
+        <div class="plan reveal">
+          <h3>Pro</h3>
+          <div class="muted">Advanced planning</div>
+          <div class="price">$49/mo</div>
+          <ul>
+            <li>All Plus features</li>
+            <li>Retirement scenarios</li>
+            <li>Advisor collaboration</li>
+            <li>Custom reports</li>
+          </ul>
+          <div class="spacer"></div>
+          <a class="button" href="get-started.html">Choose Pro</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

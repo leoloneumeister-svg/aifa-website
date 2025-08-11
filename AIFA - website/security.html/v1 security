@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Security — AIFA</title>
+  <meta name="description" content="Security and privacy by design. You control your data." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-started.html">Get started</a>
+        <button class="button ghost menu-btn" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">Home / Security</div>
+      <h1>Security and privacy by design.</h1>
+      <p class="muted" style="max-width:60ch">You control your data. We protect it.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="security">
+        <div class="shield reveal" aria-hidden="true">
+          <svg viewBox="0 0 128 128">
+            <path d="M64 8l44 16v36c0 31-19 48-44 60C39 108 20 91 20 60V24l44-16z" fill="url(#s1)"/>
+            <path d="M64 8l44 16v36c0 31-19 48-44 60" fill="none" stroke="rgba(0,0,0,.1)" stroke-width="2"/>
+            <defs>
+              <linearGradient id="s1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="color-mix(in srgb, var(--accent) 65%, var(--accent-2) 35%)"/>
+                <stop offset="1" stop-color="var(--accent)"/>
+              </linearGradient>
+            </defs>
+            <g transform="translate(28,36)" fill="white" opacity="0.9">
+              <rect x="0" y="0" width="72" height="8" rx="4"/>
+              <rect x="0" y="20" width="54" height="8" rx="4"/>
+              <rect x="0" y="40" width="36" height="8" rx="4"/>
+            </g>
+          </svg>
+        </div>
+        <div class="reveal">
+          <ul>
+            <li><strong>Encryption</strong> — Data encrypted in transit and at rest.</li>
+            <li><strong>Privacy controls</strong> — Clear permissions and easy data export/delete.</li>
+            <li><strong>Least‑privilege access</strong> — Strict internal access controls and auditing.</li>
+            <li><strong>Transparency</strong> — Plain‑language policies and alerts for important events.</li>
+          </ul>
+          <p class="muted" style="margin-top:10px">Replace this copy with your actual security and compliance statements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

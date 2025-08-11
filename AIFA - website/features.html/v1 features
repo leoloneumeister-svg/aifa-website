@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Features — AIFA</title>
+  <meta name="description" content="Explore AIFA features: budgeting, personalized portfolios, retirement planning, tax-aware insights, debt strategies, and security." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-started.html">Get started</a>
+        <button class="button ghost menu-btn" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">Home / Features</div>
+      <h1>Everything you need to move money forward.</h1>
+      <p class="muted" style="max-width:60ch">Minimal interface. Powerful insights. AIFA turns your data into clear, prioritized actions you can take today.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="grid-3">
+        <div class="feature reveal">
+          <div class="icon" aria-hidden="true">
+            <!-- Category icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M4 12h16M4 7h16M4 17h10" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Smart Budgeting</h3>
+          <p>Automated categorization, envelope budgets, and alerts so you always know what’s safe to spend.</p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="icon alt" aria-hidden="true">
+            <!-- Allocation icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="8" stroke="white" stroke-width="2"/>
+              <path d="M12 12V4M12 12h8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Personalized Portfolios</h3>
+          <p>Well‑diversified model portfolios aligned to your time horizon and capacity for risk.</p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="icon" aria-hidden="true">
+            <!-- Retirement icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M6 19h12M8 19V7a4 4 0 118 0v12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Retirement Planning</h3>
+          <p>See if you’re on track with Monte‑Carlo‑style scenarios and next steps to improve your odds.</p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="icon alt" aria-hidden="true">
+            <!-- Tax icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <rect x="4" y="4" width="16" height="16" rx="3" stroke="white" stroke-width="2"/>
+              <path d="M8 9h8M8 13h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Tax‑Aware Insights</h3>
+          <p>Contribution guidance, tax‑loss harvesting checks, and asset location suggestions.</p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="icon" aria-hidden="true">
+            <!-- Debt icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <circle cx="7" cy="17" r="3" stroke="white" stroke-width="2"/>
+              <circle cx="17" cy="7" r="3" stroke="white" stroke-width="2"/>
+              <path d="M9.5 14.5l5-5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Debt Strategy</h3>
+          <p>Prioritize high‑impact paydowns while protecting your cash cushion.</p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="icon alt" aria-hidden="true">
+            <!-- Bell/check icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M12 3a5 5 0 00-5 5v3l-2 4h14l-2-4V8a5 5 0 00-5-5z" stroke="white" stroke-width="2"/>
+              <path d="M9 20h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Proactive Alerts</h3>
+          <p>Get notified about upcoming bills, drift, and opportunities to optimize.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h3 style="margin:0 0 6px">Try AIFA free</h3>
+          <p class="muted" style="margin:0">No credit card required.</p>
+        </div>
+        <div>
+          <a class="button primary" href="get-started.html">Create account</a>
+          <a class="button" href="pricing.html">See pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

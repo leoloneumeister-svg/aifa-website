@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AIFA — Build wealth with clarity</title>
+  <meta name="description" content="AIFA is an AI-powered financial copilot that helps you budget, invest, and retire with confidence." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true"></div>
+        <span>AIFA</span>
+      </div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html" aria-label="Book a demo">Book a demo</a>
+        <a class="button primary" href="get-started.html" aria-label="Get started">Get started</a>
+        <button class="button ghost menu-btn" aria-label="Open menu" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <div class="eyebrow">Artificial Intelligence Financial Advisor</div>
+        <h1>Build wealth with clarity and confidence.</h1>
+        <p class="lead">Your AI copilot for smarter budgeting, personalized investing, and retirement planning — tailored to your goals and risk tolerance.</p>
+        <div class="cta">
+          <a class="button primary" href="get-started.html">Start free</a>
+          <a class="button" href="features.html">Explore features</a>
+        </div>
+      </div>
+
+      <div class="device reveal" aria-label="Product preview">
+        <div class="chart">
+          <div class="card">
+            <div class="mini-title">Monthly Spending</div>
+            <div class="bars" aria-hidden="true">
+              <div class="bar" style="height:30%"></div>
+              <div class="bar" style="height:55%"></div>
+              <div class="bar" style="height:42%"></div>
+              <div class="bar" style="height:70%"></div>
+              <div class="bar" style="height:38%"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="mini-title">Portfolio Allocation</div>
+            <svg viewBox="0 0 100 100" role="img" aria-label="Allocation donut" style="width:100%;height:auto">
+              <circle cx="50" cy="50" r="36" fill="none" stroke="#e8e9ed" stroke-width="12"/>
+              <circle cx="50" cy="50" r="36" fill="none" stroke="url(#g1)" stroke-width="12" stroke-dasharray="226" stroke-dashoffset="40" pathLength="226" />
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="color-mix(in srgb, var(--accent) 60%, var(--accent-2) 40%)"/>
+                  <stop offset="1" stop-color="var(--accent)"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <small class="muted">Stocks 60% • Bonds 30% • Cash 10%</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <h2 class="reveal">Make confident money decisions, faster.</h2>
+        <p class="muted reveal">Clean design. Actionable guidance. Real progress.</p>
+      </div>
+      <div class="grid-3">
+        <div class="feature reveal">
+          <div class="icon" aria-hidden="true">
+            <!-- Wallet icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <rect x="3" y="7" width="18" height="12" rx="3" stroke="white" stroke-width="2"/>
+              <path d="M3 10h10a3 3 0 013 3v0a3 3 0 01-3 3H3" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="16.5" cy="13" r="1.5" fill="white"/>
+            </svg>
+          </div>
+          <h3>Smart Budgeting</h3>
+          <p>Auto‑categorization, cash‑flow trends, and savings targets that flex with your lifestyle.</p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="icon alt" aria-hidden="true">
+            <!-- Growth chart -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M4 20V4" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <path d="M4 16l5-5 3 3 6-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="18" cy="7" r="1.5" fill="white"/>
+            </svg>
+          </div>
+          <h3>Personalized Investing</h3>
+          <p>Goal‑based portfolios with diversified allocations aligned to your risk tolerance.</p>
+        </div>
+
+        <div class="feature reveal">
+          <div class="icon" aria-hidden="true">
+            <!-- Shield check -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M12 3l7 3v6c0 5-3 8-7 9-4-1-7-4-7-9V6l7-3z" stroke="white" stroke-width="2"/>
+              <path d="M8.5 12.5l2.5 2.5 4.5-5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Retirement Planning</h3>
+          <p>Scenario testing with clear steps to close any gap and stay on track.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h3 style="margin:0 0 6px">Ready to see your plan?</h3>
+          <p class="muted" style="margin:0">Start free in under 2 minutes. No credit card required.</p>
+        </div>
+        <div>
+          <a class="button primary" href="demo.html">Book a demo</a>
+          <a class="button" href="get-started.html">Start now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true"></div>
+        <span>AIFA</span>
+      </div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

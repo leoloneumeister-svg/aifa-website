@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — AIFA</title>
+  <meta name="description" content="AIFA privacy policy." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <div class="container nav" aria-label="Main">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <ul role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" class="link" href="features.html">Features</a></li>
+        <li role="none"><a role="menuitem" class="link" href="pricing.html">Pricing</a></li>
+        <li role="none"><a role="menuitem" class="link" href="security.html">Security</a></li>
+        <li role="none"><a role="menuitem" class="link" href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="button ghost" href="demo.html">Book a demo</a>
+        <a class="button primary" href="get-started.html">Get started</a>
+        <button class="button ghost menu-btn" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs">Home / Privacy</div>
+      <h1>Privacy Policy</h1>
+      <p class="muted" style="max-width:60ch">Plain‑language summary of how we handle your data.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="reveal" style="max-width: 800px;">
+        <h3>Overview</h3>
+        <p>We respect your privacy and give you control over your information. This policy explains what we collect, why we collect it, and how you can manage it.</p>
+        <h3>Data we collect</h3>
+        <ul>
+          <li>Account info you provide (name, email)</li>
+          <li>Financial data you connect or upload</li>
+          <li>Product usage to improve AIFA</li>
+        </ul>
+        <h3>Your controls</h3>
+        <ul>
+          <li>Access, export, and delete your data</li>
+          <li>Manage connections and permissions</li>
+          <li>Opt out of non‑essential communications</li>
+        </ul>
+        <p class="muted">Replace this template with your official policy and disclosures.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div class="brand"><div class="brand-logo" aria-hidden="true"></div><span>AIFA</span></div>
+      <nav>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="security.html">Security</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+      <small>© <span id="year"></span> AIFA. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
